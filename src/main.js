@@ -9,3 +9,6 @@ emitter.on("book ticket", (name, destination) => {
 emitter.on("Print ticket", (name) => {
   console.log(`Hi ${name}, Please Print ticket here`);
 });
+
+console.log("Welcome User");
+console.log()
